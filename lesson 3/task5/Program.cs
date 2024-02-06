@@ -1,4 +1,5 @@
-﻿int size = 5;
+﻿// Заполнение массива целыми числами с клавиатуры
+int size = 5;
 int[] arr_int = new int[size];
 int i = 0;
 while (i < size)
