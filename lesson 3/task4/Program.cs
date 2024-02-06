@@ -1,7 +1,7 @@
 ﻿// Заполнение массива случайными целыми числами от 1 до 10 (10 не включая)
 Random rnd = new Random();
 
-int size = 100;
+int size = 15;
 int[] arr_int = new int[size];
 int i = 0;
 while(i<size)
