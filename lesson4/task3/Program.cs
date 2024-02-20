@@ -13,6 +13,7 @@ string GetLettersFromString(string s)
     }
     return letters;
 }
+
 string str = Console.ReadLine();
 string result = GetLettersFromString(str);
 System.Console.WriteLine(result);
