@@ -8,7 +8,7 @@ int Fact(int n)
         return 1;
     }
     Console.WriteLine(n);
-    return Fact(n-1) * n;
+    return n * Fact(n-1);
 }
 Console.Write("Введите число для вычисления его факториала: ");
 int n = Convert.ToInt32(Console.ReadLine());
